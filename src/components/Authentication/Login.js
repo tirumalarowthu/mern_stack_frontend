@@ -40,7 +40,7 @@ const Login = () => {
       };
 
       const { data } = await axios.post(
-        "https://mern-stack-backend-db1jkxj6n-tirumalarowthuv-gmailcom.vercel.app/api/user/login",
+        "https://mern-stack-backend-uots.vercel.app/api/user/login",
         { email, password },
         config
       );
