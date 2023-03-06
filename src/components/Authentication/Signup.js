@@ -51,7 +51,7 @@ const Signup = () => {
         },
       };
       const { data } = await axios.post(
-        "/api/user",
+        "https://mern-stack-backend-db1jkxj6n-tirumalarowthuv-gmailcom.vercel.app/api/user",
         {
           name,
           email,
